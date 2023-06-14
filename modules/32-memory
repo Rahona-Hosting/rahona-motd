@@ -40,3 +40,5 @@ swap=$(swap)
 [[ -n "${swap}" ]] && out+="\n${swap}"
 
 print_columns "Memory" "${out}"
+
+echo "\n"

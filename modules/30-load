@@ -15,3 +15,5 @@ for load in ${loads}; do
 done
 
 print_columns "Load average" "${text::-2}"
+
+echo "\n"

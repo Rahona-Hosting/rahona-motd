@@ -44,9 +44,9 @@ print_bar() {
     local out=""
     out+="["
     out+="${CE}"
-    out+=$(print_n "=" ${used_width})
+    out+=$(print_n "—" ${used_width})
     out+="${CO}"
-    out+=$(print_n "=" ${free_width})
+    out+=$(print_n "—" ${free_width})
     out+="${CN}"
     out+="]"
     echo "${out}"

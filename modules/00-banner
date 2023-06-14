@@ -4,6 +4,8 @@ set -euo pipefail
 # shellcheck source=./framework.sh
 source "${BASE_DIR}/framework.sh"
 
+print_coloumns "" "TEST"
+
 hostname=${HOSTNAME:-$(hostname)}
 
-print_columns "" "${CA}$(figlet "${hostname}")${CN}"
+# print_columns "" "${CA}$(figlet "${hostname}")${CN}"
